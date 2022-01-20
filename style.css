@@ -1,0 +1,100 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+.header{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0C120C;
+    padding: 0 32px;
+    height: 10vh;
+}
+
+.logo-section{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFBFC;
+}
+
+.logo-link{
+    text-decoration: none;
+    color: #EDC131;
+}
+
+.navigation{
+    list-style-type: none;
+    color: wheat;
+    display: flex;
+    gap: 16px;
+}
+
+.navigation-link{
+    text-decoration: none;
+    color: #FFFBFC;
+}
+
+.hero{
+    height: 90vh;
+    background-color: #69995D;
+    margin: 0;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    max-width: 500px;
+}
+
+.about{
+    text-align: center;
+    margin: 0;
+    padding: 32px;
+}
+
+.about-title{
+    font-size: 48px;
+    margin-bottom: 100px;
+}
+
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.beer-box{
+    max-width: 250px;
+    margin-bottom: 100px;
+}
+
+.beer-img{
+    width: 200px;
+    height: 200px;
+}
+
+.testimonials{
+    margin: 0;
+    background-color: #69995D;
+    padding: 32px;
+    font-size: 32px;
+    color: white;
+}
+.testimonial-container{
+    display: flex;
+    flex-direction: column;
+}
+.testimonial-author{
+    font-weight: bold;
+    padding-top: 32px;
+    align-self: flex-end;
+}
