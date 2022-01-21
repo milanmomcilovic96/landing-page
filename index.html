@@ -9,34 +9,38 @@
 </head>
 <body>
     <header class="header">
-        <div class="logo-section">
-            <img src="images/beer-logo.png" style="width: 45px; height: 45px;" alt="beer-logo" class="logo">
-            <p class="logo-title"><a class="logo-link" href="index.html">Ura Brewery</a></p>
+        <div class="header-container">
+            <div class="logo-section">
+                <img src="images/beer-logo.png" style="width: 45px; height: 45px;" alt="beer-logo" class="logo">
+                <p class="logo-title"><a class="logo-link" href="index.html">Ura Brewery</a></p>
+            </div>
+            <ul class="navigation">
+                <li class="navigation-list-item">
+                    <a class="navigation-link" href="javascript:;">About</a>
+                </li>
+                <li class="navigation-list-item">
+                    <a class="navigation-link" href="javascript:;">Testimonials</a>
+                </li>
+                <li class="navigation-list-item">
+                    <a class="navigation-link" href="javascript:;">Support Us</a>
+                </li>
+            </ul>
         </div>
-        <ul class="navigation">
-            <li class="navigation-list-item">
-                <a class="navigation-link" href="javascript:;">About</a>
-            </li>
-            <li class="navigation-list-item">
-                <a class="navigation-link" href="javascript:;">Testimonials</a>
-            </li>
-            <li class="navigation-list-item">
-                <a class="navigation-link" href="javascript:;">Support Us</a>
-            </li>
-        </ul>
     </header>
     <section class="hero">
+        <div class="hero-container">
             <div class="box">
-                <h1 class="hero-title">Ura Craft Beer</h1>
+                <h1 class="title">Ura Craft Beer</h1>
                 <p class="hero-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                     Itaque non voluptatem quasi ut quidem voluptas excepturi vero nam aliquid earum ipsa voluptate nemo nostrum modi dignissimos at, pariatur beatae repellat!
                 </p>
-                <button class="button">See More</button>
+                <button class="button"><a href="javascript:;">See More</a></button>
             </div>
             <img src="images/beer-img.jpg" style="width: 450px; height: 300px;" alt="">
+        </div>
     </section>
     <section class="about">
-        <h2 class="about-title">Our Beers</h2>
+        <h2 class="title">Our Beers</h2>
         <div class="about-container">
             <div class="beer-box">
                 <img class="beer-img" src="images/beer-1.jpg" alt="">
@@ -57,13 +61,23 @@
         </div>
     </section>
     <section class="testimonials">
-        <h2 class="testimonial-title">About Us</h2>
+        <h2 class="title">About Us</h2>
         <div class="testimonial-container">
             <p class="testimonial-text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates eaque consectetur, veniam exercitationem facere ab aliquid, voluptas neque quidem nihil dolorum asperiores. Eos neque adipisci possimus nisi! Nulla quo rerum accusamus consequuntur repellat, totam harum consectetur ratione eveniet voluptate, suscipit iste porro voluptates ducimus quas aperiam magni at minus dolorum."</p>
             <span class="testimonial-author">Thor, God of Thunder</span>
         </div>
     </section>
-    <section class="cta"></section>
-    <footer></footer>
+    <section class="cta">
+        <div class="cta-container">
+            <div class="cta-textbox">
+                <h4 class="cta-title">Call to action! It's time!</h4>
+                <p class="cta-description">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button class="button"><a href="javascript:;">Sign Up!</a></button>
+        </div>
+    </section>
+    <footer class="footer">
+        <span class="copyrights">Copyrights &copy; The Odin Project 2021</span>
+    </footer>
 </body>
 </html>

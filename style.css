@@ -1,15 +1,28 @@
-body{
+html, body{
     box-sizing: border-box;
     margin: 0;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .header{
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: #0C120C;
     padding: 0 32px;
     height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.header-container{
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo-section{
@@ -44,12 +57,39 @@ body{
 .hero{
     height: 90vh;
     background-color: #69995D;
-    margin: 0;
-    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    background: url("images/beer-background-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-container{
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(0,0,0,0.4) ;
+    color: white;
+    border-radius: 15px;
+    padding: 32px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    
 }
+
+.hero-title{
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-description{
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
 .box{
     max-width: 500px;
 }
@@ -58,23 +98,30 @@ body{
     text-align: center;
     margin: 0;
     padding: 32px;
+    background: url("images/background-patern.jpg");
+    background-size: contain;
+    background-repeat: space;
 }
 
-.about-title{
-    font-size: 48px;
-    margin-bottom: 100px;
-}
 
 .about-container{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 60px;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+  
 }
 
 .beer-box{
     max-width: 250px;
     margin-bottom: 100px;
+    background-color: white;
+    border: 2px solid #69995D;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    border-radius: 15px;
 }
 
 .beer-img{
@@ -86,15 +133,91 @@ body{
     margin: 0;
     background-color: #69995D;
     padding: 32px;
-    font-size: 32px;
     color: white;
+    text-align: center;
 }
 .testimonial-container{
     display: flex;
     flex-direction: column;
+    max-width: 1400px;
+    width: 100%;
+    padding: 0 40px;
+    margin: 0 auto;
 }
+
+.title{
+    font-size: 48px;
+}
+
+.testimonial-text{
+    font-size: 32px;
+    font-style: italic;
+}
+
 .testimonial-author{
     font-weight: bold;
     padding-top: 32px;
     align-self: flex-end;
+    font-size: 24px;
+}
+
+.cta{
+    padding: 150px 0;
+    background: url("images/background-patern.jpg");
+    background-size: contain;
+    background-repeat: space;
+}
+
+.cta-container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #69995D;
+    border-radius: 15px;
+    padding: 24px 54px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.cta-title{
+    font-size: 24px;
+    color: black;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.cta-description{
+    color: black;
+    font-size: 16px;
+    margin: 0;
+}
+
+.button{
+    border: none;
+    border-radius: 15px;
+    color:  white;
+    background-color: black;
+    padding: 12px 34px;
+    font-size: 18px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);;
+}
+
+.cta .button{
+    background-color: #EDC131;
+}
+
+.cta a{
+    color: black;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
 }
